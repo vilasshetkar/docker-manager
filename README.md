@@ -1,6 +1,3 @@
-Here's a `README.md` file for your Docker Control Panel project:
-
-```markdown
 # Docker Control Panel
 
 This is a small Node.js Express application that provides a web-based control panel to manage Docker containers. The app allows you to view running Docker containers, and perform basic Docker operations like viewing logs, stopping, starting, and restarting containers. The application also includes search and sort functionality for easy navigation.
@@ -98,20 +95,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [Docker](https://www.docker.com/) for providing containerization technology.
 - [Node.js](https://nodejs.org/) and [Express.js](https://expressjs.com/) for the web framework.
 - [Bootstrap](https://getbootstrap.com/) for the front-end styling.
-
-```
-
-### Key Sections of the `README.md`:
-
-1. **Introduction**: Describes the purpose of the application.
-2. **Features**: Lists the key features available in the application.
-3. **Prerequisites**: Specifies the necessary software and tools required to run the project.
-4. **Installation**: Step-by-step instructions on how to install and run the application.
-5. **Usage**: Explains how to use the dashboard, search, and sort functionality.
-6. **File Structure**: Overview of the project directory and file contents.
-7. **API Endpoints**: Lists the available API endpoints for Docker operations.
-8. **Contributing**: Invitation for others to contribute to the project.
-9. **License**: States the license under which the project is distributed.
-10. **Acknowledgments**: Credits the technologies used in the project.
-
-This `README.md` file provides clear and detailed documentation to help users understand and get started with the Docker Control Panel project.
