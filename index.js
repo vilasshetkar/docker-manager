@@ -58,6 +58,7 @@ app.post('/restart', async (req, res) => {
         await container.restart();
         res.redirect('./');
     } catch (err) {
+        console.log(err);
         res.status(500).send('Error restarting container');
     }
 });
