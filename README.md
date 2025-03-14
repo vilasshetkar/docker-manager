@@ -36,6 +36,12 @@ This is a small Node.js Express application that provides a web-based control pa
     ```
 
 4. Open your web browser and navigate to `http://localhost:3000` to access the Docker Control Panel.
+5. Docker
+    ```bash
+    docker build . -t vilasshetkar/whatsapp-manager
+    docker push
+    docker run -d -p 3110:3110 --name whatsapp-manager vilasshetkar/whatsapp-manager
+    ```
 
 ## Usage
 
