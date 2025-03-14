@@ -20,4 +20,4 @@ EXPOSE 3110
 ENV NODE_ENV=production
 
 # Start the Express.js app
-CMD ["node", "server.js"]
+CMD ["node", "index.js"]
